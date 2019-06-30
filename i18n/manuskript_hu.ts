@@ -240,8 +240,8 @@ Akkor használja ezt, ha YAML-hoz kapcsolódó gondjai vannak.</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/exporters/exportersManager_ui.ui" line="21"/>
-        <source>Manuskript</source>
-        <translation>Manuskript</translation>
+        <source>Aquilldriver</source>
+        <translation>Aquilldriver</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/exporters/exportersManager_ui.ui" line="66"/>
@@ -933,13 +933,13 @@ Akkor használja ezt, ha YAML-hoz kapcsolódó gondjai vannak.</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="2512"/>
-        <source>About Manuskript</source>
+        <source>About Aquilldriver</source>
         <translation>A Manuskript -ről</translation>
     </message>
     <message>
         <location filename="../manuskript/mainWindow.py" line="672"/>
-        <source>Manuskript</source>
-        <translation>Manuskript</translation>
+        <source>Aquilldriver</source>
+        <translation>Aquilldriver</translation>
     </message>
     <message>
         <location filename="../manuskript/mainWindow.py" line="771"/>
@@ -2146,13 +2146,13 @@ Akkor használja ezt, ha YAML-hoz kapcsolódó gondjai vannak.</translation>
     <name>about</name>
     <message>
         <location filename="../manuskript/ui/about_ui.ui" line="17"/>
-        <source>About Manuskript</source>
+        <source>About Aquilldriver</source>
         <translation>A Manuskript névjegye</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/about_ui.ui" line="50"/>
-        <source>Manuskript</source>
-        <translation>Manuskript</translation>
+        <source>Aquilldriver</source>
+        <translation>Aquilldriver</translation>
     </message>
 </context>
 <context>
@@ -4206,8 +4206,8 @@ Akkor használja ezt, ha YAML-hoz kapcsolódó gondjai vannak.</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/welcome.py" line="187"/>
-        <source>Manuskript</source>
-        <translation>Manuskript</translation>
+        <source>Aquilldriver</source>
+        <translation>Aquilldriver</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/welcome.py" line="195"/>

@@ -22,28 +22,30 @@ class aboutDialog(QWidget, Ui_about):
         iconPic = appPath("icons/Manuskript/icon-64px.png")
         self.setWindowIcon(QIcon(iconPic))
 
-        logoPic = QPixmap(appPath("icons/Manuskript/logo-400x104.png"))
+        logoPic = QPixmap(appPath("icons/AquillDriver/logo-400x104.png"))
         self.labelLogo.setPixmap(logoPic)
 
         self.labelManuskriptVersion.setText(
-              "<b>" + self.tr("Version") + " " + getVersion() + "</b><br>"
-            + "&nbsp;"*5 + """<a href="http://www.theologeek.ch/manuskript/">
-                                http://www.theologeek.ch/manuskript/
-                               </a><br>"""
-            + "&nbsp;"*5 + "Copyright © 2015-2019 Olivier Keshavjee<br>"
-            + "&nbsp;"*5 + """<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-                                GNU General Public License Version 3
-                            </a><br>"""
+             "Copyright Act - GNU General Public License 2019.<br>"
+            + "Copyright &copy; 2019 - 2020 Abir Maheshwari.<br>"
+            + """Website <a href="https://www.aquilldriver.com">
+                                https://www.aquilldriver.com
+                               </a><br><br>"""
+            +"<b>" + self.tr("Version") + " " + getVersion() + "</b><br>"
+            # + "&nbsp;"*5 + "Copyright © 2015-2019 Olivier Keshavjee<br>"
+            # + "&nbsp;"*5 + """<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+            #                     GNU General Public License Version 3
+            #                 </a><br>"""
             )
 
         self.labelManuskriptVersion.setOpenExternalLinks(True)
 
-        self.labelSoftwareVersion.setText(
-              "<b>" + self.tr("Software Versions in Use:") + "</b><br>"
-            + "&nbsp;"*5 + "Python " + python_version() + "<br>"
-            + "&nbsp;"*5 + "PyQt " + PYQT_VERSION_STR + "<br>"
-            + "&nbsp;"*5 + "Qt " + QT_VERSION_STR
-            )
+        # self.labelSoftwareVersion.setText(
+        #       "<b>" + self.tr("Software Versions in Use:") + "</b><br>"
+        #     + "&nbsp;"*5 + "Python " + python_version() + "<br>"
+        #     + "&nbsp;"*5 + "PyQt " + PYQT_VERSION_STR + "<br>"
+        #     + "&nbsp;"*5 + "Qt " + QT_VERSION_STR
+        #     )
         #self.labelPythonVersion.setText()
         #self.labelPyQtVersion.setText()
         #self.labelQtVersion.setText()

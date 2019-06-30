@@ -238,7 +238,7 @@ Use isso se você receber um erro relacionado ao YAML.</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/exporters/exportersManager_ui.ui" line="21"/>
-        <source>Manuskript</source>
+        <source>Aquilldriver</source>
         <translation></translation>
     </message>
     <message>
@@ -932,12 +932,12 @@ Use isso se você receber um erro relacionado ao YAML.</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="2512"/>
-        <source>About Manuskript</source>
+        <source>About Aquilldriver</source>
         <translation>Sobre o Manuskript</translation>
     </message>
     <message>
         <location filename="../manuskript/mainWindow.py" line="672"/>
-        <source>Manuskript</source>
+        <source>Aquilldriver</source>
         <translation></translation>
     </message>
     <message>
@@ -2145,12 +2145,12 @@ Então expanda isso para um parágrafo, depois para uma página e, em seguida, p
     <name>about</name>
     <message>
         <location filename="../manuskript/ui/about_ui.ui" line="17"/>
-        <source>About Manuskript</source>
+        <source>About Aquilldriver</source>
         <translation>Sobre o Manuskript</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/about_ui.ui" line="50"/>
-        <source>Manuskript</source>
+        <source>Aquilldriver</source>
         <translation></translation>
     </message>
 </context>
@@ -4204,7 +4204,7 @@ Então expanda isso para um parágrafo, depois para uma página e, em seguida, p
     </message>
     <message>
         <location filename="../manuskript/ui/welcome.py" line="187"/>
-        <source>Manuskript</source>
+        <source>Aquilldriver</source>
         <translation></translation>
     </message>
     <message>

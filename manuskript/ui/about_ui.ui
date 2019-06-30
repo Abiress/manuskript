@@ -14,7 +14,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About Manuskript</string>
+   <string>About Aquilldriver</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -57,19 +57,19 @@
      </property>
     </widget>
    </item>
-   <item row="4" column="0">
-    <widget class="QLabel" name="labelSoftwareVersion">
-     <property name="text">
-      <string notr="true">Software Versions in Use:</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-     </property>
-     <property name="textInteractionFlags">
-      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
-     </property>
-    </widget>
-   </item>
+<!--   <item row="4" column="0">-->
+<!--    <widget class="QLabel" name="labelSoftwareVersion">-->
+<!--     <property name="text">-->
+<!--      <string notr="true">Software Versions in Use:</string>-->
+<!--     </property>-->
+<!--     <property name="alignment">-->
+<!--      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>-->
+<!--     </property>-->
+<!--     <property name="textInteractionFlags">-->
+<!--      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>-->
+<!--     </property>-->
+<!--    </widget>-->
+<!--   </item>-->
    <item row="7" column="0">
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
